@@ -15,11 +15,18 @@ Each customer comes with their own sets of needs and challenges. However, there 
 - architecture design sessions (ADS)
 - architecture design review sessions (ADR)
 - technology-specific deep-dives, into areas like
+  - networking topology, such as VNET integration of PaaS services
   - cloud deployment, infrastructure as code (IaC), deployment mechanisms (ARM templates / Bicep, Terraform,  Pulumi, imperative scripts)
   - data warehouse design
-  - networking topology
   - DevOps
   - PowerBI
   - ...
+- security reviews
+
+## How to prepare for the initial technical envisioning
+
+Prior to the technical envisioning session, you should prepare an architectural overview of your system. Some customers already have various representations of their system, so there's no need to generate additional documentation, others don't have any graphical representation. While there are many different ways to represent an architecture, we mainly care about a deployment diagram, which highlights interactions between the various components. 
+
+Finding the right level of detail is the biggest challenge. Typical 'marchitecture' slides do not convey enough detail, diagrams which list IP addresses and firewall rules for all subnets certainly are too deep for an initial session.
 
 
