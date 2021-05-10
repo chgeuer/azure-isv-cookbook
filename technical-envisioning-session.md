@@ -30,3 +30,7 @@ Prior to the technical envisioning session, you should prepare an architectural 
 Finding the right level of detail is the biggest challenge. Typical 'marchitecture' slides do not convey enough detail, diagrams which list IP addresses and firewall rules for all subnets certainly are too deep for an initial session.
 
 
+### Architecture pictures lacking detail
+
+![A kubernetes-based microservices architecture with databases](img/architecture1.svg)
+
