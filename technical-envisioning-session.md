@@ -29,11 +29,11 @@ Prior to the technical envisioning session, you should prepare an architectural 
 
 Finding the right level of detail is the biggest challenge. Typical 'marchitecture' slides do not convey enough detail, diagrams which list IP addresses and firewall rules for all subnets certainly are too deep for an initial session.
 
-### Architecture samples
+## Architecture samples
 
 This section provides some sample architecture diagrams we see in our customer engagements. These might help you to get a better understanding on what sort of information we try to surface during a technical envisioning session, and potentially later during architecture review sessions.
 
-#### A really simple LAMP architecture
+### A really simple LAMP architecture
 
 ![LAMP (Linux/Apache/MySQL/PHP) app](img/architecture_php_mysql.svg)
 
@@ -85,7 +85,7 @@ Details we miss in the picture:
   - What happens if your app 'goes down'. 
   - How is the geographical usage pattern? Do you have majority of your users in a single geography, or is traffic coming in 24x7 from around the world?
 
-#### Too generic / Too little detail
+### Too generic / Too little detail
 
 The following architecture illustration conveys a few ideas, but also lacks lots of details:
 
@@ -125,3 +125,7 @@ Details we miss in the picture:
   - The picture seems to say that the database system a
 - Multi-tenancy
   - 
+
+### Little infra details, unnecessary business context
+
+![Many business modules in a box](img/architecture_business_centered.svg)
