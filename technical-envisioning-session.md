@@ -29,8 +29,33 @@ Prior to the technical envisioning session, you should prepare an architectural 
 
 Finding the right level of detail is the biggest challenge. Typical 'marchitecture' slides do not convey enough detail, diagrams which list IP addresses and firewall rules for all subnets certainly are too deep for an initial session.
 
+### Architecture samples
 
-### Architecture pictures lacking detail
+This section provides some sample architecture diagrams we see in our customer engagements. These might help you to get a better understanding on what sort of information we try to surface during a technical envisioning session, and potentially later during architecture review sessions.
+
+#### Too little detail
+
+The following architecture illustration conveys a few ideas, but also lacks lots of details:
 
 ![A kubernetes-based microservices architecture with databases](img/architecture1.svg)
 
+Details we get from the picture: 
+
+- The partner plans to run services on top of Kubernetes as an orchestrator
+- There will be multiple services on the Kubernetes cluster
+- Some services talk to each other
+- Some services store data in databases
+- The databases seem to be hosted on Kubernetes as well
+- Some services call out to services outside of the Kubernetes cluster
+
+Details we miss in the picture:
+
+- What 'application' is calling the deployment, i.e. how do users interact with the system? 
+  - Is it a web-based application, where users use their browser? Is it a 'single-page application'? Server-rendered HTML?
+  - Is it a 'fat client', like a Windows-application, running on the user's computer, which interacts with the system?
+  - Is it a B2B-application, where your application exposes an API which is called from, and integrated, with your customed's business systems?
+- How does traffic come into the application? 
+  - Does the application only expose a single endpoint, or IP address? Do you need multiple IP addresses?
+  - Which protocols are used, is is web-based (HTTPs) traffic, IoT (AMQP/MQTT), which transports (TCP, UDP)
+  - Do you have session-affinity requirements, a.k.a. sticky sessions, where subsequent requests need to be sent to the same compute node?
+- 
