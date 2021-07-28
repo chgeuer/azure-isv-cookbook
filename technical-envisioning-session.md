@@ -1,4 +1,4 @@
-# The technical envisioning session
+# The technical envisioning / technical discovery session
 
 The engineering part of an engagement usually starts with a 'technical envisioning session', during which we try to understand your system better. This session is usually time-boxed to 60 minutes, so we won't have time to go super-deep in each aspect. 
 
