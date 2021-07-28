@@ -31,5 +31,10 @@ The goal of the technical discovery session is to help me to get a deeper techni
     - deployment automation, DevOps
 - Scheduling next meeting(s)
 
-Please be prepared to present your solution's architecture in this tech discovery. If you need more information or inspiration regarding the right level of detail, please head over to https://cookbook.azureisv.com/technical-envisioning-session for samples. 
+### Preparing for the session
+
+- **Solution Architecture**: Please have your solution's architecture ready to present it during tech discovery. Ideally, please share it with us in e-mail 2-3 days prior to the session. If you need more information or inspiration regarding the right level of detail, please head over to https://cookbook.azureisv.com/technical-envisioning-session for samples. 
+- **Technology Questionaire**: Please take a few minutes to fill our technology questionaire [here **Put Paolo's link in]()
+
+All the very best, looking forward working with you, 
 
