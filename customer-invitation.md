@@ -51,16 +51,22 @@ You might also look into the following questions:
 - Project's schedule and important milestones, if any
 - Your functional and non-functional requirements:
   - High Availability and Resiliency: 
-    - Can your application be deployed across multiple availability zones?
+    - Is your application designed to run distributed across multiple availability zones?
     - Do you need to run your application across multiple Azure regions?
   - Disaster Recovery and Business Continuity
   - Cross-cloud platform portability
-  - Performance numbers, such as minimum throughput, maximum latency, transactions/sec, response time, etc.)
+    - Are you followint a multi-cloud strategy in which you want your application to run without major modifications across multiple environments?
+    - Or are you trying to leverage (environment-specific) best-of-breed PaaS services, in order to achieve maximum development velocity?
+  - Performance numbers, such as 
+    - minimum throughput,
+    - maximum latency,
+    - transactions/sec
   - Migration Plan
     - Zero-downtime requirements? 
     - Data Migration, volume and shape of data, replication options
   - Security (authentication and authorization, networking, ...)
   - Governance, Compliance
+  - Usage pattern of the solution, e.g. are your users office workers (working nine-to-five) in a certain geography, or are consumers using your solution 24x7?
 - Technology stack overview
   - Azure Services already in use
   - Programming Languages and Frameworks (C#/Java/Node/Python/Go/...)
