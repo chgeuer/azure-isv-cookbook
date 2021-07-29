@@ -33,22 +33,22 @@ The goal of the technical discovery session is to help me to get a deeper techni
 
 ### Preparing for the session
 
-**Solution Architecture Diagram**: Please have your solution's architecture ready to present it during tech discovery. Ideally, please share it with us in e-mail 2-3 days prior to the session. If you need more information or inspiration regarding the right level of detail, please head over to https://cookbook.azureisv.com/technical-envisioning-session for samples. 
+Please have your solution's architecture diagram ready to present it during tech discovery. Ideally, please share it with us in e-mail 2-3 days prior to the session. If you need more information or inspiration regarding the right level of detail, please head over to https://cookbook.azureisv.com/technical-envisioning-session for samples. 
 
 You might also look into the following questions:
 
-- In which technical area do you specifically need advisory from Azure Engineering?
+- In which Azure areas do you specifically need advisory from us?
 - Your team's cloud readiness: Does your technical team already have
   - experience on Azure, or 
   - another cloud environment (AWS, GCP), or 
   - is this your first cloud project?
-- Your application's cloud readiness: Are you 
+- Your application's cloud readiness: Are you ...
   - building a new 'greenfield' application,
   - migrate your app from another cloud environment, or
   - migrate from an on-premises data center?
-- Pain points, challenges, and issues you're facing during your cloud journey
-- Your expectations for our project
-- Your project's schedule and important milestones, if any
+- Pain points, challenges, and issues you're currently facing during your cloud journey
+- Expectations for our project
+- Project's schedule and important milestones, if any
 - Your functional and non-functional requirements:
   - High Availability and Resiliency: 
     - Can your application be deployed across multiple availability zones?
@@ -56,24 +56,32 @@ You might also look into the following questions:
   - Disaster Recovery and Business Continuity
   - Cross-cloud platform portability
   - Performance numbers, such as minimum throughput, maximum latency, transactions/sec, response time, etc.)
-  - Security (authentication and authorization, networking, ...) 
+  - Migration Plan
+    - Zero-downtime requirements? 
+    - Data Migration, volume and shape of data, replication options
+  - Security (authentication and authorization, networking, ...)
   - Governance, Compliance
-- Technology stack
+- Technology stack overview
   - Azure Services already in use
   - Programming Languages and Frameworks (C#/Java/Node/Python/Go/...)
-  - Infrastructure-as-Code (ARM templates, Terraform, imperative scripting)
-  - CI/CD (Azure DevOps, GitHub Actions, Jenkins, etc.)
-  - Compute approach (IaaS/VMs, PaaS/Web, FaaS, Kubernetes)
-  - Kubernetes and CNCF (NGINX, Istio, Linkerd, Helm, GitOps, ...)
-  - Operating systems (Linux distro, Windows)
+  - Compute
+    - Compute approach (IaaS/VMs, PaaS/Web, FaaS, Kubernetes)
+    - Operating systems (Linux distributions, Windows)
+  - Operations
+    - Infrastructure-as-Code
+      - ARM templates, Terraform, imperative scripting
+      - Chef/Puppet/Packer/...
+    - CI/CD (Azure DevOps, GitHub Actions, Jenkins, etc.)
+    - Kubernetes and CNCF (NGINX, Service Mesh, Linkerd, Helm, GitOps, ...)
+    - Monitoring (Log Analytics, Prometheus, etc.)
+    - Application Performance Management (Application Insights, New Relic, Datadog, etc.)
   - Data
     - Relational DB (SQL/PostgreSQL/MySQL/...)
     - NoSQL DB (MongoDB/CassandraDB/Redis/...)
+    - Big Data (data lake, DWH, ETL)
     - Messaging and eventing (Azure Service Bus, RabbitMQ, ...)
     - Event Streaming (Event Hubs, Kafka, etc.)
-    - Big Data (data lake, DWH, ETL)
-  - Monitoring (Log Analytics, Prometheus, etc.)
-  - Application Performance Management (Application Insights, New Relic, Datadog, etc.)
 
 Not all of them might be applicable to your unique situation, but it would be very helpful for us if you could share these with us as well. 
 
+All the very best, looking forward working with you,
