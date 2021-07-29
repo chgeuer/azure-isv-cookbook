@@ -36,5 +36,50 @@ The goal of the technical discovery session is to help me to get a deeper techni
 - **Solution Architecture**: Please have your solution's architecture ready to present it during tech discovery. Ideally, please share it with us in e-mail 2-3 days prior to the session. If you need more information or inspiration regarding the right level of detail, please head over to https://cookbook.azureisv.com/technical-envisioning-session for samples. 
 - **Technology Questionaire**: Please take a few minutes to fill our technology questionaire [here **Put Paolo's link in]()
 
-All the very best, looking forward working with you, 
 
+- Please send your technical documentation and/or architecture diagram(s)
+- Is your cloud solution
+  - A new greenfield application
+  - A migration from on-premises
+  - A migration from another cloud platform (AWS, GCP)
+- Please provide a list of your:
+  - Pain points
+  - Challenges
+  - Issues
+  - Technical goals 
+  - Deadlines
+  - Expectation for the engagement
+  - Deadlines or time plans, if any
+- Please provided your functional and non-functional requirements in terms of:
+  - High Availability and intra-region resiliency across multiple availability zones
+  - Disaster Recovery, Business Continuity, multiple regions 
+  - Cross-cloud platform portability 
+  - Speeds and feeds (e.g. transactions/sec, response time, etc.)
+  - Performance SLAs in terms of throughput and latency, if any
+  - Security
+    - User authentication
+    - Network security
+    - RBAC
+    - Others
+  - Governance
+  - Compliance
+
+### - Technology stack used by the solution.
+
+| Technology Area                                                                      | Technology Components |
+| ------------------------------------------------------------------------------------ | --------------- |
+| Azure Services used by your solution                                                 |                 |
+| Programming Languages and Frameworks (C#, Python, Golang, PHP, Rust, Java, etc.)     |                 |
+| Scripting Languages (Bash, PowerShell, etc.)                                         |                 |
+| Infrastructure as Code (Terraform, ARM templates, etc.)                              |                 |
+| CI/CD (Azure DevOps, GitHub Actions, Jenkins, etc.)                                  |                 |
+| Messaging and eventing (Azure Service Bus, RabbitMQ, etc.)                           |                 |
+| Kubernetes and CNCF (NGINX, Istio, Linkerd, Helm, GitOps, etc.)                      |                 |
+| Event Streaming (Event Hubs, Kafka, etc.)                                            |                 |
+| Relational Databases (Azure DB for PostgreSQL, etc.)                                 |                 |
+| NoSQL Databases (MongoDB, CassandraDB, ArangoDB, etc.)                               |                 |
+| Operating System (Linux distro, Windows)                                             |                 |
+| Monitoring and Dashboarding (Log Analytics, Prometheus, etc.)                        |                 |
+| Application Performance Management (Application Insights, New Relic, Datadog, etc.)  |                 |
+
+All the very best, looking forward working with you, 
