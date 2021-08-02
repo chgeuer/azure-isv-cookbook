@@ -24,11 +24,13 @@ The goal of the technical discovery session is to help me to get a deeper techni
 - Agreeing on a discrete set of engagements where you need our help, their priority, and jointly agreed definition / condition of success. Examples could be
   - An architecture design session (in case you do not yet have an Azure architecture), and you want us to advise while you develop your architecture
   - Iterative architecture reviews (of your architecture's evolution)
+  - Architecture reviews with specific focus areas, such as 'security' or 'resilience and reliability'
   - In-depth sessions for areas, such as
     - networking
     - security
     - data migration
     - deployment automation, DevOps,
+    - Kubernetes
     - ...
 - Scheduling the next meeting(s)
 
