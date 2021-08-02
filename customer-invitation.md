@@ -16,20 +16,21 @@ The goal of the technical discovery session is to help me to get a deeper techni
 - Short overview of your solution from your customer's perspective, potentially a (quick) demo
 - Overview to your solution architecture diagrams
   - Application-level components
-  - Physical architecture on Azure (or the current hosting environment, in case of a migration project), incl.
+  - Physical architecture on Azure (or the current hosting environment, in case of a migration project)
     - Network topology
     - Compute tier
     - Databases and storage
-    - Requirements like availability, geo-distribution, governance/regulation/compliance, service levels
-- Agreeing on a discrete set of engagements where you need our help, and their priority, such as
-  - An architecture design session (in case you do not yet have an Azure architecture)
+    - Requirements re: security, availability, geo-distribution, governance/regulation/compliance, service levels
+- Agreeing on a discrete set of engagements where you need our help, their priority, and jointly agreed definition / condition of success. Examples could be
+  - An architecture design session (in case you do not yet have an Azure architecture), and you want us to advise while you develop your architecture
   - Iterative architecture reviews (of your architecture's evolution)
-  - In-depth sessions for areas like
+  - In-depth sessions for areas, such as
     - networking
     - security
     - data migration
-    - deployment automation, DevOpst
-- Scheduling next meeting(s)
+    - deployment automation, DevOps,
+    - ...
+- Scheduling the next meeting(s)
 
 ### Preparing for the session
 
@@ -87,6 +88,7 @@ You might also look into the following questions:
     - Big Data (data lake, DWH, ETL)
     - Messaging and eventing (Azure Service Bus, RabbitMQ, ...)
     - Event Streaming (Event Hubs, Kafka, etc.)
+  - Authentication and Sign-In (Azure AD B2C, Octa/Auth0, social sign-in, self-implemented, ...)
 
 Not all of them might be applicable to your unique situation, but it would be very helpful for us if you could share these with us as well. 
 
