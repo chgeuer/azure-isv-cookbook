@@ -1,19 +1,30 @@
 
-# Invitation to our technical discovery session
+# Invitation to our fist technical discovery session
 
-Hi all, 
+I'm happy to also welcome you to the "Azure FastTrack for ISV" program. The next step is an initial 60-90 minutes "**technical discovery**" session with your and our engineering team. I will serve as 'lead engineer', i.e. I'm your primarily contact for all technical questions, and I pull additional help, where needed. 
 
-I'm happy to also welcome you to the "Azure FastTrack for ISV" program. 
-You already had the initial conversation with our program management team. 
-The next step to kick-off the technical workstream is the "technical discovery" session with our engineering team. 
-In our joint project, I will serve as 'lead engineer', i.e. I will be your primarily entry point for technical questions, and will pull additional engineers in, if needed. 
+## What we need from you
 
-The goal of the technical discovery session is to help me to get a deeper technical understanding of your solution's architecture, and to jointly identify the different engagements / areas where you need advisory from Azure Engineering. 
+1. Your **current architecture diagrams** and target architecture. Ideally, please share these with me at least 2-3 days prior to the call. If you don't have diagrams, you find some examples [here](https://cookbook.azureisv.com/technical-envisioning-session). Alternatively we can cover this during the technical discovery meeting. 
+2. Think about Azure topics / areas you need our advice with. 
+3. I'd appreciate if you could fill this short [survey](https://:...). 
 
-### Agenda (60-90 minutes overall)
+## Goals of the technical discovery phase
+
+The **goals** of the technical discovery phase are the following: 
+
+1. We gain deeper technical understanding about your solution's architecture.
+2. Mutual understanding about your current tech challenges and goals.
+3. Identification of joint engagements / areas where you need advisory from Azure Engineering, and conditions of satisfaction. 
+
+Our work will be structured in sprints (we call them 'engagements'). Each sprint usually lasts 2-4 weeks and will be focused on a single theme. 
+
+The **main outcome** of the initial tech discovery phase is a mutually agreed project plan, listing the sprints/engagements, with clearly identified advisory areas and conditions of success. For the concrete engagements, I will pull in subject matter experts, as needed.
+
+### Provisional Agenda (60-90 minutes overall)
 
 - Introduction / Who is who
-- Short overview of your solution from your customer's perspective, potentially a (quick) demo
+- Short overview of your solution, potentially a (quick) demo
 - Overview to your solution architecture diagrams
   - Application-level components
   - Physical architecture on Azure (or the current hosting environment, in case of a migration project)
@@ -21,26 +32,19 @@ The goal of the technical discovery session is to help me to get a deeper techni
     - Compute tier
     - Databases and storage
     - Requirements re: security, availability, geo-distribution, governance/regulation/compliance, service levels
+- ISV business: How do you sell your solution? Via software licenses, are you offering a SaaS solution, are you allowing customers to run their solution in their own subscription, are you managing customer deployments, are you selling your solution through cloud marketplaces already?  
+- In which Azure areas specifically do you need advisory from us?
 - Agreeing on a discrete set of engagements where you need our help, their priority, and jointly agreed definition / condition of success. Examples could be
   - An architecture design session (in case you do not yet have an Azure architecture), and you want us to advise while you develop your architecture
   - Iterative architecture reviews (of your architecture's evolution)
   - Architecture reviews with specific focus areas, such as 'security' or 'resilience and reliability'
-  - In-depth sessions for areas, such as
-    - networking
-    - security
-    - data migration
-    - deployment automation, DevOps,
-    - Kubernetes
-    - ...
+  - In-depth sessions for areas, such as networking, security, data migration, deployment automation, DevOps, Kubernetes
 - Scheduling the next meeting(s)
 
-### Preparing for the session
+### Potential topics during the session
 
-Please have your solution's architecture diagram ready to present it during tech discovery. Ideally, please share it with us in e-mail 2-3 days prior to the session. If you need more information or inspiration regarding the right level of detail, please head over to https://cookbook.azureisv.com/technical-envisioning-session for samples. 
+To give your team an understanding around the level of detail we try to touch, please consider the topics below. Keep in mind that not all of them might be applicable to your unique situation: 
 
-You might also look into the following questions:
-
-- In which Azure areas do you specifically need advisory from us?
 - Your team's cloud readiness: Does your technical team already have
   - experience on Azure, or 
   - another cloud environment (AWS, GCP), or 
@@ -58,40 +62,29 @@ You might also look into the following questions:
     - Do you need to run your application across multiple Azure regions?
   - Disaster Recovery and Business Continuity
   - Cross-cloud platform portability
-    - Are you followint a multi-cloud strategy in which you want your application to run without major modifications across multiple environments?
+    - Are you following a multi-cloud strategy in which you want your application to run without major modifications across multiple environments?
     - Or are you trying to leverage (environment-specific) best-of-breed PaaS services, in order to achieve maximum development velocity?
-  - Performance numbers, such as 
-    - minimum throughput,
-    - maximum latency,
-    - transactions/sec
-  - Migration Plan
-    - Zero-downtime requirements? 
-    - Data Migration, volume and shape of data, replication options
+  - Performance numbers, such as throughput, latency, or transactions/sec
+  - Migration Plans (zero-downtime requirements, data migration, volume and shape of data, replication options)
   - Security (authentication and authorization, networking, ...)
   - Governance, Compliance
   - Usage pattern of the solution, e.g. are your users office workers (working nine-to-five) in a certain geography, or are consumers using your solution 24x7?
 - Technology stack overview
   - Azure Services already in use
   - Programming Languages and Frameworks (C#/Java/Node/Python/Go/...)
-  - Compute
-    - Compute approach (IaaS/VMs, PaaS/Web, FaaS, Kubernetes)
-    - Operating systems (Linux distributions, Windows)
+  - Compute (IaaS/VMs, PaaS/Web, FaaS, Kubernetes)
+  - Identity, Authentication and Sign-In (Azure AD B2C, Octa/Auth0, social sign-in, self-implemented, ...)
   - Operations
-    - Infrastructure-as-Code
-      - ARM templates, Terraform, imperative scripting
-      - Chef/Puppet/Packer/...
+    - Infrastructure-as-Code (ARM/bicep templates, Terraform, imperative scripting, Chef/Puppet/Packer/...)
     - CI/CD (Azure DevOps, GitHub Actions, Jenkins, etc.)
     - Kubernetes and CNCF (NGINX, Service Mesh, Linkerd, Helm, GitOps, ...)
     - Monitoring (Log Analytics, Prometheus, etc.)
     - Application Performance Management (Application Insights, New Relic, Datadog, etc.)
   - Data
-    - Relational DB (SQL/PostgreSQL/MySQL/...)
-    - NoSQL DB (MongoDB/CassandraDB/Redis/...)
+    - Relational (MSSQL/PostgreSQL/MySQL/...)
+    - NoSQL (MongoDB/CassandraDB/Redis/...)
     - Big Data (data lake, DWH, ETL)
     - Messaging and eventing (Azure Service Bus, RabbitMQ, ...)
     - Event Streaming (Event Hubs, Kafka, etc.)
-  - Authentication and Sign-In (Azure AD B2C, Octa/Auth0, social sign-in, self-implemented, ...)
-
-Not all of them might be applicable to your unique situation, but it would be very helpful for us if you could share these with us as well. 
 
 All the very best, looking forward working with you,
