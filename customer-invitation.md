@@ -6,18 +6,17 @@ I'm happy to also welcome you to the "Azure FastTrack for ISV" program. The next
 ## What we need from you
 
 1. Your **current architecture diagrams** and target architecture. Ideally, please share these with me at least 2-3 days prior to the call. If you don't have diagrams, you find some examples [here](https://cookbook.azureisv.com/technical-envisioning-session). Alternatively we can cover this during the technical discovery meeting. 
-2. Think about Azure topics / areas you need our advice with. 
-3. I'd appreciate if you could fill this short [survey](https://:...). 
+2. Capture, prioritize and share Azure topics / services you need our advice with. 
 
 ## Goals of the technical discovery phase
 
 The **goals** of the technical discovery phase are the following: 
 
-1. We gain deeper technical understanding about your solution's architecture.
-2. Mutual understanding about your current tech challenges and goals.
-3. Identification of joint engagements / areas where you need advisory from Azure Engineering, and conditions of satisfaction. 
+1. We gain deeper technical understanding about your solution's architecture. 
+2. Mutual understanding about your current tech challenges and goals. 
+3. Identification of joint engagements / areas where you need advisory from Azure Engineering, and conditions of satisfaction.  
 
-Our work will be structured in sprints (we call them 'engagements'). Each sprint usually lasts 2-4 weeks and will be focused on a single theme. 
+Our work will be structured in sprints (we call them 'engagements'). Each sprint usually lasts 2-4 weeks and will be focused on a single theme.  
 
 The **main outcome** of the initial tech discovery phase is a mutually agreed project plan, listing the sprints/engagements, with clearly identified advisory areas and conditions of success. For the concrete engagements, I will pull in subject matter experts, as needed.
 
