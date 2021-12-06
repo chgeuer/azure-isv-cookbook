@@ -1,11 +1,8 @@
 
-# Invitation to our fist technical discovery session
-
-I'm happy to also welcome you to the "Azure FastTrack for ISV" program. The next step is an initial 60-90 minutes "**technical discovery**" session with your and our engineering team. I will serve as 'lead engineer', i.e. I'm your primarily contact for all technical questions, and I pull additional help, where needed. 
 
 ## What we need from you
 
-1. Your **current architecture diagrams** and target architecture. Ideally, please share these with me at least 2-3 days prior to the call. If you don't have diagrams, you find some examples [here](https://cookbook.azureisv.com/technical-envisioning-session). Alternatively we can cover this during the technical discovery meeting. 
+1. Your **current architecture diagrams** and target architecture. Ideally, please share these with me at least 2-3 days prior to the call. If you don't have diagrams, you find some examples [here](https://cookbook.azureisv.com/other-samples). Alternatively we can cover this during the technical discovery meeting. 
 2. Capture, prioritize and share Azure topics / services you need our advice with. 
 
 ## Goals of the technical discovery phase
@@ -86,4 +83,4 @@ To give your team an understanding around the level of detail we try to touch, p
     - Messaging and eventing (Azure Service Bus, RabbitMQ, ...)
     - Event Streaming (Event Hubs, Kafka, etc.)
 
-All the very best, looking forward working with you,
+
