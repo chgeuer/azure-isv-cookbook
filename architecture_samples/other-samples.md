@@ -1,5 +1,6 @@
 ## Azure Samples
 
+- The [Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/) has many well-documented reference architectures in stock. The Azure team offers various [tips](https://microsoft.github.io/AzureTipsAndTricks/blog/tip297.html) on how to explore the architecture center, such as [browsing](https://docs.microsoft.com/en-us/azure/architecture/browse/) the architecture center.
 - [API-first SaaS business model](https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/aks-api-first) 
 - [Scalable web application](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/app-service-web-app/scalable-web-app)
 - [Core startup stack architecture](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/startups/core-startup-stack)
