@@ -26,7 +26,7 @@ The **main outcome** of the initial tech discovery phase is a mutually agreed pr
   - Physical architecture on Azure (or the current hosting environment, in case of a migration project)
     - Network topology
     - Compute tier
-    - Databases and storage
+    - Databases and storage and what is your data classification? 
     - Requirements re: security, availability, geo-distribution, governance/regulation/compliance, service levels
 - ISV business: How do you sell your solution? Via software licenses, are you offering a SaaS solution, are you allowing customers to run their solution in their own subscription, are you managing customer deployments, are you selling your solution through cloud marketplaces already?  
 - In which Azure areas specifically do you need advisory from us?
