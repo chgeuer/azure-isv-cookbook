@@ -7,3 +7,6 @@
   * [Little infra details, unnecessary business context](architecture_samples/architecture_business_centered.md)
   * [A really simple LAMP architecture](architecture_samples/architecture_php_mysql.md)
   * [Other samples & Tools](architecture_samples/other-samples.md)
+
+* [Lets talk about data](data_art/dataplatform.md)
+  *[Data ingestion](data_art/data_ingestion.md)
