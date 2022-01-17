@@ -9,4 +9,5 @@
   * [Other samples & Tools](architecture_samples/other-samples.md)
 
 * [Lets talk about data](data_art/dataplatform.md)
+  * [Data Estate](data_art/dataestate.md)
   * [Data ingestion](data_art/data_ingestion.md)
