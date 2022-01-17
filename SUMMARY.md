@@ -9,4 +9,4 @@
   * [Other samples & Tools](architecture_samples/other-samples.md)
 
 * [Lets talk about data](data_art/dataplatform.md)
-  *[Data ingestion](data_art/data_ingestion.md)
+  * [Data ingestion](data_art/data_ingestion.md)
