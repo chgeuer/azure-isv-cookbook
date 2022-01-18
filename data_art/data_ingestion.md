@@ -14,7 +14,7 @@ This document is provided “AS-IS,” WITHOUT WARRANTY OF ANY KIND. Microsoft d
 
 Data ingestion is defined as the process of collecting and saving data.
 The reference architecture and content for [the retail view](https://docs.microsoft.com/en-us/previous-versions/azure/industry-marketing/retail/retail-data-management-overview?toc=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Farchitecture%2Ftoc.json&bc=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Farchitecture%2Fbread%2Ftoc.json) is one of the best starting points.
-Large quantities of data should be saved to [Hierarchal storage account](https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-namespace)_.
+Large quantities of data should be saved to [Hierarchal storage account](https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-namespace).
 Data premise is considered any and all data repositories you might have, storage accounts, disks, databases etc.
 It is highly recommended to anonymize any and all PII data reaching your data premise.
 
@@ -55,7 +55,7 @@ The most common practice of storing data is using the:
 - Silver - cleansed and filtered
 - Gold - your buisness level data (e.g. aggregations)
 
-When adopting this practice, each area is a [container](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#containers)
+When adopting this practice, each area is a [container](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#containers).
 
 ## Orchestration
 
