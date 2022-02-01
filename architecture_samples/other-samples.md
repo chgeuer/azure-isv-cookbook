@@ -17,4 +17,5 @@ Any tool is valid as long as it allows you to express your thinking. Having said
 - [Lucidchart](https://www.lucidchart.com/pages/)
 - [Excalidraw](https://excalidraw.com/)
 - [Gliffy](https://www.gliffy.com/)
+- [tldraw](https://www.tldraw.com/)
 - And, of course😏, [Visio Online](https://office.live.com/start/visio.aspx) !
