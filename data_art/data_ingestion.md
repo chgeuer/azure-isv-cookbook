@@ -28,7 +28,7 @@ First, lets outline potential data sources, and review relevant ingestion method
 
 ## Ingestion Methods
 
-In both methods described it is recommended to use linkd to the data and not the actual data. This is primarily due to size limitation and the fact the receiving application would be required to buffer the data and then save it to a persistent storage.  (lake)
+In both methods described it is recommended to use links to the data and not the actual data. This is mainly due to size limitation and the fact the receiving application would be required to buffer the data and then save it to a persistent storage.  (lake)
 Couple of ingestion concepts:
 
 - Pull - A request is made to the source of data. The pull can be of the actual data, or a link to the actual location of the data.
@@ -39,7 +39,7 @@ It is highly recomended to confirm with the ISV customers, what can be the most 
 
 ### ETL vs. ELT
 
-Not too long ago, it was custom to perform Extraction (brining the data) Transformation (manipulate the data) and Load (save to destination). Given that one cannot know at the early stages of a project, what other transformation might be needed, or what other insights the same data might provide, it is now more common to leverage the Extract Load (to the lake) and then transform.
+Not too long ago, it was custom to perform Extraction (bringing the data) Transformation (manipulate the data) and Load (save to a destination). Given that one cannot know at the early stages of a project, what other transformation might be needed, or what other insights the same data might provide, it is now more common to leverage the Extract - Load (to the lake) and then transform.
 
 ### Batch vs. Stream
 
