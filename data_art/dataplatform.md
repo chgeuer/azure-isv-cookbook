@@ -10,15 +10,20 @@ This document is provided “AS-IS,” WITHOUT WARRANTY OF ANY KIND. Microsoft d
 
 ### Data Lake
 
-When an ISV request to establish a data lake, few stratigic decsions are required to be addressed. It is imperative to create data ingestion strategies which will be aligned with the strategic path of the ISV, in regards to on boarding new customers, ensuring data residency, supporting GDPR regulation where applicable and securing the data.
+An ISV that want to establish a data lake, would need to take few stratigic decsions.
 
-There would be few use cases that can be addressed by a lake.
+- Data ingestion strategies should align with the strategic path of the ISV.
 
-- Operational - The ISV would need to extract insights from his provisioned resources, have it VMs or platforms - the operational data can be a source for understanding how customers are using your system, what is working well, and what might need your attention.
+  - Understanding customers journey
+  - Comply with local regulations (e.g. data residency, GDPR & others)
 
-- Applicative - The ISV buisness is primerly generating actionable data for the customers, e.g. suggesting when to perform specific activity.
+Data lake can address few scenarios:
 
-[Ready to start your data ingestion jurney?](/data_ingestion.md)
+- Operational - ISV can extract insights on how the resources are used.
+
+- Applicative - The ISV is leveraging data from multiple sources to optimize thier buisness. e.g suggesting when to perform specific activity.
+
+[Ready to start your data ingestion jurney?](./data_ingestion.md)
 
 ### Machine Learning & AI
 
@@ -26,17 +31,26 @@ Before diving to details, lets ask few peliminary questions:
 
 - What is (or are) the buisness objective(s) of integrating machine learning capabilities?
 
-- Do you have the capacity for this? Do you have a dedicated team who is designated to work on these activities?
+- Do you have the capacity for this?
+
+- Do you have a dedicated team who is designated to work on these activities?
 
 - What platforms have you used before, what is your main takeaway of these platforms?
 
-- What type of ML are you thinking of? Classification, forecasting, clustering ? What are we aiming to predict? A label for a ```thing```, a value for a ```thing``` or grouping of similar ```things```
+- What type of ML are you thinking of?
+  
+  - Classification, forecasting, clustering ?
+  
+  - What are we aiming to predict? A label for a ```thing```, a value for a ```thing``` or grouping of similar ```things```
 
     ![confusion matrix](../img/confusion.png)
 
 - What is your take on Precsion/Accuracy/Recall? These decsions would help when selecting the proper model based on its metrics.
+
   - Accuracy = TP+TN/TP+FP+FN+TN - intuitive performance measure and it is simply a ratio of correctly predicted observation to the total observations.
+  
   - Precision = TP/TP+FP - Precision is the ratio of correctly predicted positive observations to the total predicted positive observations.
+  
   - Recall = TP/TP+FN - also named Sensitivity - Recall is the ratio of correctly predicted positive observations to the all observations in actual class - yes.
   
 - When we talk about creating models, we should also discuss the model lifecycle. In most cases it is not a one&done work, rather a continuance cycles of training, testing deployment. How often do you think you would be require to retrain?
