@@ -1,7 +1,7 @@
 
 # What we need from you
 
-1. Your **current architecture diagrams** and target architecture. Ideally, please share these with me at least 2-3 days prior to the call. If you don't have diagrams, you find some examples [here](https://cookbook.azureisv.com/other-samples). Alternatively we can cover this during the technical discovery meeting.
+1. Your **current architecture diagrams** and target architecture. Ideally, please share these with me at least 2-3 days prior to the call. If you don't have diagrams, you find some examples [here](other-samples). Alternatively we can cover this during the technical discovery meeting.
 2. Capture, prioritize and share Azure topics / services you need our advice with.
 
 ## Goals of the technical discovery phase
