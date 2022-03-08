@@ -2,7 +2,7 @@
 
 The following architecture illustration conveys a few ideas, but also lacks lots of details:
 
-![A kubernetes-based microservices architecture with databases](../img/architecture_generic_k8s.svg)
+![A kubernetes-based microservices architecture with databases](../img/architecture-generic-k8s.svg)
 
 Details we get from the picture: 
 

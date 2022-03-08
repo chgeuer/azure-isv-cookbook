@@ -1,6 +1,6 @@
 ### Little infra details, unnecessary business context
 
-![Many business modules in a box](../img/architecture_business_centered.svg)
+![Many business modules in a box](../img/architecture-business-centered.svg)
 
 Details we get from the picture: 
 

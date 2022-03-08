@@ -7,8 +7,8 @@ The document would focus on data lake ingestion.
 
 ## Disclaimer
 
-“FastTrack for Azure" are “Professional Services” provided free of charge subject to the “Professional Services Terms” in the Online Services Terms and Online Services Data Protection Addendum.
-This document is provided “AS-IS,” WITHOUT WARRANTY OF ANY KIND. Microsoft disclaims all express, implied or statutory warranties, including warranties of quality, title, non-infringement, merchantability and fitness for a particular purpose.
+"FastTrack for Azure" are "Professional Services" provided free of charge subject to the "Professional Services Terms" in the Online Services Terms and Online Services Data Protection Addendum.
+This document is provided "AS-IS", WITHOUT WARRANTY OF ANY KIND. Microsoft disclaims all express, implied or statutory warranties, including warranties of quality, title, non-infringement, merchantability and fitness for a particular purpose.
 
 ## Context
 
@@ -32,7 +32,6 @@ In both methods described it is recommended to use links to the data and not the
 Couple of ingestion concepts:
 
 - Pull - A request is made to the source of data. The pull can be of the actual data, or a link to the actual location of the data.
-
 - Push - The source of data is calling the target to notify of new data availability (link to the new data) or the actual data.
 
 It is highly recomended to confirm with the ISV customers, what can be the most convinient way of sending data. Customers might be able to provide storage location, actual files, or in other cases byte streams. While few customers might find your approach new or diffrent, providing the customer with sample code might ease or prevent friction.
