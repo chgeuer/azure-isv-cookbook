@@ -8,6 +8,6 @@
   * [A really simple LAMP architecture](architecture-samples/architecture-php-mysql.md)
   * [Other samples & Tools](architecture-samples/other-samples.md)
 
-* [Lets talk about data & ai](data_art/dataplatform.md)
-  * [Data ingestion](data_art/data_ingestion.md)
-  * [Cosmos](data_art/cosmos.md)
+* [Lets talk about data & ai](data-art/dataplatform.md)
+  * [Data ingestion](data-art/data_ingestion.md)
+  * [Cosmos](data-art/cosmos.md)
