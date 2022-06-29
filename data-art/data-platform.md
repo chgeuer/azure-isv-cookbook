@@ -3,8 +3,9 @@
 
 ## Disclaimer
 
-“FastTrack for Azure" are “Professional Services” provided free of charge subject to the “Professional Services Terms” in the Online Services Terms and Online Services Data Protection Addendum.
-This document is provided “AS-IS,” WITHOUT WARRANTY OF ANY KIND. Microsoft disclaims all express, implied or statutory warranties, including warranties of quality, title, non-infringement, merchantability and fitness for a particular purpose.
+"FastTrack for Azure" are "Professional Services" provided free of charge subject to the "Professional Services Terms" in the Online Services Terms and Online Services Data Protection Addendum.
+
+This document is provided "AS-IS", WITHOUT WARRANTY OF ANY KIND. Microsoft disclaims all express, implied or statutory warranties, including warranties of quality, title, non-infringement, merchantability and fitness for a particular purpose.
 
 ## Context
 
@@ -23,7 +24,7 @@ Data lake can address few scenarios:
 
 - Applicative - The ISV is leveraging data from multiple sources to optimize thier buisness. e.g suggesting when to perform specific activity.
 
-[Ready to start your data ingestion jurney?](./data_ingestion.md)
+[Ready to start your data ingestion jurney?](./data-ingestion.md)
 
 ### Machine Learning & AI
 
@@ -41,7 +42,7 @@ Before diving to details, lets ask few peliminary questions:
   
   - Classification, forecasting, clustering ?
   
-  - What are we aiming to predict? A label for a ```thing```, a value for a ```thing``` or grouping of similar ```things```
+  - What are we aiming to predict? A label for a `thing`, a value for a `thing` or grouping of similar `things`
 
     ![confusion matrix](../img/confusion.png)
 

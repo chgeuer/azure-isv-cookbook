@@ -1,6 +1,6 @@
 ### A really simple LAMP architecture
 
-![LAMP (Linux/Apache/MySQL/PHP) app](../img/architecture_php_mysql.svg)
+![LAMP (Linux/Apache/MySQL/PHP) app](../img/architecture-php-mysql.svg)
 
 Details we get from the picture: 
 
