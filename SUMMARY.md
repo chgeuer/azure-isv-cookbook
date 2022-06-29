@@ -11,3 +11,4 @@
 * [Lets talk about data & ai](data_art/dataplatform.md)
   <!-- * [Data Estate](data_art/dataestate.md) -->
   * [Data ingestion](data_art/data_ingestion.md)
+  * [Cosmos](data_art/cosmos.md)
