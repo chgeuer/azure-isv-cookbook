@@ -24,7 +24,7 @@ Data lake can address few scenarios:
 
 - Applicative - The ISV is leveraging data from multiple sources to optimize thier buisness. e.g suggesting when to perform specific activity.
 
-further reading and thoughts about data lake - see this [guide](https://azure.github.io/Storage/docs/analytics/hitchhikers-guide-to-the-datalake/).
+Further reading and thoughts about data lake - see this [guide](https://azure.github.io/Storage/docs/analytics/hitchhikers-guide-to-the-datalake/).
 
 [Ready to start your data ingestion jurney?](./data-ingestion.md)
 
