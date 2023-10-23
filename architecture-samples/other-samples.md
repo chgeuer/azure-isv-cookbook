@@ -13,9 +13,11 @@ We welcome architectures and projects no matter what your starting point is, so 
 
 Any tool is valid as long as it allows you to express your thinking. Having said that, we know engineers like these:
 
-- [Draw.io](draw.io)
+- [Draw.io](https://draw.io)
 - [Lucidchart](https://www.lucidchart.com/pages/)
 - [Excalidraw](https://excalidraw.com/)
 - [Gliffy](https://www.gliffy.com/)
 - [tldraw](https://www.tldraw.com/)
+- [swimlanes.io](https://swimlanes.io/)
+- [Mermaid.JS](https://mermaid.js.org/) and the [online editor](https://mermaid.live/)
 - And, of course😏, [Visio Online](https://office.live.com/start/visio.aspx) !
